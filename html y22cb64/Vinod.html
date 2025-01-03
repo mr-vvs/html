@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online mobile shopping - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #top-frame {
+            background-color:red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #left-frame {
+            background-color: #f4f4f4;
+            width: 20%;
+            height: 100%;
+            float: left;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+        #left-frame a {
+            display: block;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
+        }
+        #left-frame a:hover {
+            color: #4CAF50;
+        }
+        #right-frame {
+            margin-left: 20%;
+            padding: 15px;
+        }
+        #nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        #nav-bar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Frame -->
+    <div id="top-frame">
+        <h1>Online Mobile Shopping</h1>
+        <p style="font-size: 30px;">Happi</p>
+        <div id="nav-bar">
+            <a href="home.html" target="right-frame">Home</a>
+            <a href="login.html" target="right-frame">Login</a>
+            <a href="register.html" target="right-frame">Register</a>
+            <a href="catalogue.html" target="right-frame">Catalogue</a>
+            <a href="cart.html" target="right-frame">Cart</a>
+        </div>
+    </div>
+    <!-- Left Frame -->
+    <div id="left-frame">
+        <h3>Categories</h3>
+        <a href="samsung.html" target="right-frame">samsung store</a>
+        <a href="iphone.html" target="right-frame">iphone store</a>
+        <a href="OnePlus.html" target="right-frame">OnePlus store</a>
+        <a href="Realme.html" target="right-frame">Realme store</a>
+    </div>
+
+    <!-- Right Frame -->
+    <div id="right-frame">
+        <h2>Welcome to Happi mobile Store</h2>
+        <p>Explore our wide range mobiles with various brands. Navigate through the sections to find your favorite Mobiles. Enjoy a seamless shopping experience!</p>
+    </div>
+</body>
+</html>

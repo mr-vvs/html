@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: normal;
+    
+}
+ul{
+    list-style:none;
+}
+.basic{
+   text-align:none;
+}
+table{
+    border: 2px solid black;
+    padding:1rem;
+    margin:3rem 0 0 21rem;
+    border-collapse:collapse;
+}
+img{
+    width:70px;
+    height:70px;
+}
+tr.branch,td,th{
+    border:2px solid black;
+    border-collapse:collapse;
+    padding:7px;
+}
+tr.first{
+    border:2px solid black;
+}
+.login{
+    width:10rem;
+}
+button{
+    background-color: rgba(99, 99, 5, 0.861);
+    color:rgb(52, 11, 11);
+}
+li{
+    font-size:12px;
+}
+
